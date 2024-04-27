@@ -1,0 +1,49 @@
+
+.arrow {
+    margin-top: 44%;
+    animation: slide-down 2s ease-out infinite;
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    margin-top: -35%;
+    
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar {
+        margin-top: -70%;
+        width: 90%;
+        padding: 5px;
+    }
+
+    .arrow {
+        margin-top: 110%;
+    }
+}
+
